@@ -34,15 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E3FDEE02B6BE537004454BD /* TempoChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3FDEE02B6BE537004454BD /* SimplePlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3FDEE32B6BE537004454BD /* TempoChangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoChangeApp.swift; sourceTree = "<group>"; };
 		5E3FDEE52B6BE537004454BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E3FDEE72B6BE53A004454BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E3FDEE92B6BE53A004454BD /* TempoChange.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TempoChange.entitlements; sourceTree = "<group>"; };
 		5E3FDEEB2B6BE53A004454BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5E3FDEF12B6BE53B004454BD /* TempoChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3FDEF12B6BE53B004454BD /* SimplePlayerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePlayerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3FDEF52B6BE53B004454BD /* TempoChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoChangeTests.swift; sourceTree = "<group>"; };
-		5E3FDEFB2B6BE53B004454BD /* TempoChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3FDEFB2B6BE53B004454BD /* SimplePlayerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePlayerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3FDEFF2B6BE53B004454BD /* TempoChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoChangeUITests.swift; sourceTree = "<group>"; };
 		5E3FDF012B6BE53B004454BD /* TempoChangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoChangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,9 +85,9 @@
 		5E3FDEE12B6BE537004454BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E3FDEE02B6BE537004454BD /* TempoChange.app */,
-				5E3FDEF12B6BE53B004454BD /* TempoChangeTests.xctest */,
-				5E3FDEFB2B6BE53B004454BD /* TempoChangeUITests.xctest */,
+				5E3FDEE02B6BE537004454BD /* SimplePlayerView.app */,
+				5E3FDEF12B6BE53B004454BD /* SimplePlayerViewTests.xctest */,
+				5E3FDEFB2B6BE53B004454BD /* SimplePlayerViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E3FDEDF2B6BE537004454BD /* TempoChange */ = {
+		5E3FDEDF2B6BE537004454BD /* SimplePlayerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3FDF052B6BE53B004454BD /* Build configuration list for PBXNativeTarget "TempoChange" */;
+			buildConfigurationList = 5E3FDF052B6BE53B004454BD /* Build configuration list for PBXNativeTarget "SimplePlayerView" */;
 			buildPhases = (
 				5E3FDEDC2B6BE537004454BD /* Sources */,
 				5E3FDEDD2B6BE537004454BD /* Frameworks */,
@@ -144,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = TempoChange;
+			name = SimplePlayerView;
 			productName = TempoChange;
-			productReference = 5E3FDEE02B6BE537004454BD /* TempoChange.app */;
+			productReference = 5E3FDEE02B6BE537004454BD /* SimplePlayerView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E3FDEF02B6BE53B004454BD /* TempoChangeTests */ = {
+		5E3FDEF02B6BE53B004454BD /* SimplePlayerViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3FDF082B6BE53B004454BD /* Build configuration list for PBXNativeTarget "TempoChangeTests" */;
+			buildConfigurationList = 5E3FDF082B6BE53B004454BD /* Build configuration list for PBXNativeTarget "SimplePlayerViewTests" */;
 			buildPhases = (
 				5E3FDEED2B6BE53B004454BD /* Sources */,
 				5E3FDEEE2B6BE53B004454BD /* Frameworks */,
@@ -162,14 +162,14 @@
 			dependencies = (
 				5E3FDEF32B6BE53B004454BD /* PBXTargetDependency */,
 			);
-			name = TempoChangeTests;
+			name = SimplePlayerViewTests;
 			productName = TempoChangeTests;
-			productReference = 5E3FDEF12B6BE53B004454BD /* TempoChangeTests.xctest */;
+			productReference = 5E3FDEF12B6BE53B004454BD /* SimplePlayerViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E3FDEFA2B6BE53B004454BD /* TempoChangeUITests */ = {
+		5E3FDEFA2B6BE53B004454BD /* SimplePlayerViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3FDF0B2B6BE53B004454BD /* Build configuration list for PBXNativeTarget "TempoChangeUITests" */;
+			buildConfigurationList = 5E3FDF0B2B6BE53B004454BD /* Build configuration list for PBXNativeTarget "SimplePlayerViewUITests" */;
 			buildPhases = (
 				5E3FDEF72B6BE53B004454BD /* Sources */,
 				5E3FDEF82B6BE53B004454BD /* Frameworks */,
@@ -180,9 +180,9 @@
 			dependencies = (
 				5E3FDEFD2B6BE53B004454BD /* PBXTargetDependency */,
 			);
-			name = TempoChangeUITests;
+			name = SimplePlayerViewUITests;
 			productName = TempoChangeUITests;
-			productReference = 5E3FDEFB2B6BE53B004454BD /* TempoChangeUITests.xctest */;
+			productReference = 5E3FDEFB2B6BE53B004454BD /* SimplePlayerViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E3FDEDB2B6BE537004454BD /* Build configuration list for PBXProject "TempoChange" */;
+			buildConfigurationList = 5E3FDEDB2B6BE537004454BD /* Build configuration list for PBXProject "SimplePlayerView" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E3FDEDF2B6BE537004454BD /* TempoChange */,
-				5E3FDEF02B6BE53B004454BD /* TempoChangeTests */,
-				5E3FDEFA2B6BE53B004454BD /* TempoChangeUITests */,
+				5E3FDEDF2B6BE537004454BD /* SimplePlayerView */,
+				5E3FDEF02B6BE53B004454BD /* SimplePlayerViewTests */,
+				5E3FDEFA2B6BE53B004454BD /* SimplePlayerViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		5E3FDEF32B6BE53B004454BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E3FDEDF2B6BE537004454BD /* TempoChange */;
+			target = 5E3FDEDF2B6BE537004454BD /* SimplePlayerView */;
 			targetProxy = 5E3FDEF22B6BE53B004454BD /* PBXContainerItemProxy */;
 		};
 		5E3FDEFD2B6BE53B004454BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E3FDEDF2B6BE537004454BD /* TempoChange */;
+			target = 5E3FDEDF2B6BE537004454BD /* SimplePlayerView */;
 			targetProxy = 5E3FDEFC2B6BE53B004454BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +506,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoChange.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempoChange";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePlayerView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplePlayerView";
 			};
 			name = Debug;
 		};
@@ -529,7 +529,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoChange.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempoChange";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePlayerView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplePlayerView";
 			};
 			name = Release;
 		};
@@ -580,7 +580,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E3FDEDB2B6BE537004454BD /* Build configuration list for PBXProject "TempoChange" */ = {
+		5E3FDEDB2B6BE537004454BD /* Build configuration list for PBXProject "SimplePlayerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E3FDF032B6BE53B004454BD /* Debug */,
@@ -589,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3FDF052B6BE53B004454BD /* Build configuration list for PBXNativeTarget "TempoChange" */ = {
+		5E3FDF052B6BE53B004454BD /* Build configuration list for PBXNativeTarget "SimplePlayerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E3FDF062B6BE53B004454BD /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3FDF082B6BE53B004454BD /* Build configuration list for PBXNativeTarget "TempoChangeTests" */ = {
+		5E3FDF082B6BE53B004454BD /* Build configuration list for PBXNativeTarget "SimplePlayerViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E3FDF092B6BE53B004454BD /* Debug */,
@@ -607,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3FDF0B2B6BE53B004454BD /* Build configuration list for PBXNativeTarget "TempoChangeUITests" */ = {
+		5E3FDF0B2B6BE53B004454BD /* Build configuration list for PBXNativeTarget "SimplePlayerViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E3FDF0C2B6BE53B004454BD /* Debug */,
